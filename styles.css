@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.about {
+
+width: 1170px;
+height: 150px;
+}
+
+
+.about--info {
+width: 1300px;
+font-style: Regular;
+font-size: 36px;
+line-height: 42px;
+line-height: 100%;
+color: #000000;
+text-align: center;
+text-transform: uppercase;
+vertical-align: middle;
+margin: 50px auto;
+font-weight: 400;
+
+}
+.about--info--tarif {
+width: 1300px;
+font-style: Regular;
+font-size: 18px;
+line-height: 21px;
+line-height: 100%;
+vertical-align: middle;
+color: #86878B;
+text-align: center;
+margin: 40px auto;
+}
+.flex--container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+  
+    
+}
+.about--info--basic {
+margin: 79px 15px 50px 168px;
+
+}
+.about--info--optima {
+margin: 59px 15px 70px 15px;
+}
+.about--info--pro {
+    margin: 79px 15px 50px 15px;
+    }
+.tabs--list--basic {
+    list-style-type: none;
+    text-align: center;
+}
+.tabs--basic {
+    background-color: #333333;
+    color: #F5F5F5;
+    border: 2px solid;
+    width: 370px;
+    height: 60px;
+    font-family: Open Sans;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 33px;
+    line-height: 100%;
+    
+}
+.tabs--basic--price {
+    background-color: #333333;
+    color: #F5F5F5;
+    border: 2px solid;
+    width: 370px;
+    height: 100px;
+    font-family: Raleway;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 42px;
+    line-height: 100%;
+    font-weight: 700;
+   
+}
+.tabs--basic--free {
+    background-color: #333333;
+    color: #FFFFFF;
+    border: 2px solid;
+    width: 370px;
+    height: 50px;
+    font-family: Raleway;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 21px;
+    line-height: 100%;
+    font-weight: 400;
+
+}
+.tabs--basic--gb {
+    background-color:  #F5F5F5;
+    color: #86878B;
+    border: 2px solid;
+    width: 370px;
+    height: 50px;
+    font-family: Raleway;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 21px;
+    line-height: 100%;
+    font-weight: 400; 
+}
