@@ -64,16 +64,14 @@
     line-height: 21px;
     line-height: 100%;
     position: relative;
-}
-.customers--quote--madsen::after {
-    content: url "<svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M15 20L1.10119e-06 -3.27826e-07L30 -3.27826e-07L15 20Z" fill="#E2E2E2"/>
-    </svg>"
+}    
+.customers--madsen--dir {
     position: absolute;
-    background-color: #E2E2E2;
-
+    width: 30px;
+    height: 20px;
+    left: 240px;
+    bottom: 245px;
 }
-
 
     .customers--quote--rosser {
     width: 370px;
@@ -89,6 +87,14 @@
     font-size: 18px;
     line-height: 21px;
     line-height: 100%;
+    position: relative;
+}
+.customers--rosser--dir {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    left: 640px;
+    bottom: 245px;
 }
 .customers--quote--dorwart {
     width: 370px;
@@ -104,4 +110,12 @@
     font-size: 18px;
     line-height: 21px;
     line-height: 100%;
+    position: relative;
+}
+.customers--dorwart--dir {
+    position: absolute;
+    width: 30px;
+    height: 20px;
+    left: 1040px;
+    bottom: 245px;
 }
