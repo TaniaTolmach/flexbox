@@ -119,3 +119,34 @@
     left: 1040px;
     bottom: 245px;
 }
+.customers--madsen {
+    width: 70px;
+    height: 70px;
+    margin: 66px auto 84px 170px;
+ 
+}
+.madsen--name {
+    width: 269px;
+    height: 54px;
+    color: black;
+    font-family: Open Sans;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 33px;
+    line-height: 100%;
+   
+}
+.madsen--position {
+   width: 270px;
+   height: 21px;
+   font-family: Raleway;
+   font-style: Regular;
+   font-size: 18px;
+   line-height: 21px;
+   line-height: 100%;
+}
+.customers--rosser {
+    width: 70px;
+    height: 70px;
+    margin: 66px auto 84px 30px;
+}
