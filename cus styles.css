@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.customers {
+    width: 1508px;
+ 
+    
+}
+.customers--title {
+   
+    text-align: center;
+    vertical-align: middle;
+    font-family: Raleway;
+    font-style: Regular;
+    line-height: 36px;
+    font-size: 400;
+    line-height: 42px;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin: 50px auto;
+    color: black;
+}
+.divider--solid {
+    display: block;
+    width: 10%;
+    border: 1px solid #EC7979;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+.customers--title--info {
+    width: 1169px;
+    height: 21px;
+    color: #86878B;
+    font-family: Raleway;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 21px;
+    line-height: 100%;
+    text-align: center;
+    margin: 40px auto;
+    }    
+.flex--container {
+    width: 1500px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}    
+.customers--quote--madsen {
+    width: 370px;
+    height: 180px;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 83px 15px auto 170px;
+    color: #86878B;
+    font-family: Raleway;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 21px;
+    line-height: 100%;
+    position: relative;
+}
+.customers--quote--madsen::after {
+    content: url "<svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M15 20L1.10119e-06 -3.27826e-07L30 -3.27826e-07L15 20Z" fill="#E2E2E2"/>
+    </svg>"
+    position: absolute;
+    background-color: #E2E2E2;
+
+}
+
+
+    .customers--quote--rosser {
+    width: 370px;
+    height: 180px;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 83px 15px auto 15px;
+    color: #86878B;
+    font-family: Raleway;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 21px;
+    line-height: 100%;
+}
+.customers--quote--dorwart {
+    width: 370px;
+    height: 180px;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 83px 170px auto 15px;
+    color: #86878B;
+    font-family: Raleway;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 21px;
+    line-height: 100%;
+}
