@@ -15,7 +15,7 @@
     font-family: Raleway;
     font-style: Regular;
     line-height: 36px;
-    font-size: 400;
+    font-weight: 400;
     line-height: 42px;
     line-height: 100%;
     text-transform: uppercase;
@@ -25,7 +25,8 @@
 .divider--solid {
     display: block;
     width: 10%;
-    border: 1px solid #EC7979;
+    border:  1px solid #EC7979;
+    background-color: #EC7979;
     margin-left: auto;
     margin-right: auto;
 
@@ -37,6 +38,7 @@
     font-family: Raleway;
     font-style: Regular;
     font-size: 18px;
+    font-weight: 400;
     line-height: 21px;
     line-height: 100%;
     text-align: center;
@@ -54,17 +56,22 @@
     height: 180px;
     background-color: #E2E2E2;
     border-radius: 10px;
-    vertical-align: middle;
     text-align: center;
     margin: 83px 15px auto 170px;
+    position: relative;
+}    
+.quote--all--customers {
+    width: 370px;
+    height: 115px;
+    margin: 50px auto 38px auto;
     color: #86878B;
     font-family: Raleway;
     font-style: Regular;
     font-size: 18px;
+    font-weight: 400;
     line-height: 21px;
     line-height: 100%;
-    position: relative;
-}    
+}
 .customers--madsen--dir {
     position: absolute;
     width: 30px;
@@ -119,24 +126,37 @@
     left: 1040px;
     bottom: 245px;
 }
-.customers--madsen {
+
+.customers--info {
+   
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.customers--info--madsen {
     width: 70px;
     height: 70px;
-    margin: 66px auto 84px 170px;
+    margin: 66px auto 84px 170px;   
+    position: relative;
  
 }
-.madsen--name {
+.customers--info--name {
     width: 269px;
     height: 54px;
     color: black;
     font-family: Open Sans;
     font-style: Bold;
     font-size: 24px;
+    font-weight: 700;
     line-height: 33px;
     line-height: 100%;
+    position: absolute;
+    bottom: 5px;
+    left: 90px;
    
 }
-.madsen--position {
+.customers--info--position {
    width: 270px;
    height: 21px;
    font-family: Raleway;
@@ -144,9 +164,23 @@
    font-size: 18px;
    line-height: 21px;
    line-height: 100%;
+   font-weight: 400;
+   position: absolute;
+   bottom: 5px;
+   left: 90px;
 }
-.customers--rosser {
+.customers--info--rosser {
     width: 70px;
     height: 70px;
-    margin: 66px auto 84px 30px;
+    margin: 66px 300px 84px 31px;
+    position: relative;
+   
+}
+
+.customers--info--dorwart {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    margin: 66px 470px 84px 30px; 
+    
 }
