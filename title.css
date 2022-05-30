@@ -58,17 +58,17 @@ display: inline-block;
   
   
 }
-.ffffff {
+.title--logo--first {
     margin: 231px 0px 665px 170px;
   
 }
-.ffffff1 {
+.title--logo--second {
     margin-right: 1170px;
     margin-bottom: 665px;
     margin-left: 0px;
     position: relative;
 }
-.ffffff2 {
+.main--title {
     width: 670px;
     height: 168px;
     position: absolute;
@@ -84,11 +84,11 @@ display: inline-block;
 }
 .divider--solid {
     position: absolute;
-    border: 1px solid black;
+    border: 3px solid #FFFFFF;
     bottom: 200px;
     left: 170px;
 }
-.ffffff4 {
+.title--info--about {
     width: 270px;
     height: 42px;
     font-family: Raleway;
@@ -116,6 +116,56 @@ display: inline-block;
     position: absolute;
     left: 170px;
     bottom: 30px;
+     
+}
+.back--info {
+    width: 1510px;
+    height: 140px;
+}
+.back--info-media {
+    width: 1510px;
+    height: 140px;
+    background-color: #F8EFEF;
+}
+.info--media--title {
+    width: 470px;
+    height: 60px;
+    font-family: Open Sans;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 33px;
+    line-height: 100%;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 170px;
+    padding-top: 20px;
+    position: relative;
+}
+.info--media--about {
+    width: 470px;
+    height: 42px;
+    font-family: Raleway;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 21px;
+    line-height: 100%;
+    font-weight: 400;
+    color: #86878B;
+    text-align: left;
+    margin-left: 170px;
+}
+.info--media--link {
+    width: 638px;
+    height: 58px;
+    display: inline-block;
+   
     
+}
+.media--link--facebook {
+    width: 30.32px;
+    height: 55.42px;
+    position: absolute;
+    left: 689.84px;
     
+ 
 }
