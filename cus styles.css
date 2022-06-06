@@ -232,3 +232,93 @@ margin-left: 170px;
     border: 2px solid #FFFFFF;
     background-color: rgba(0, 0, 0, 0.5);
 } 
+
+.contact--us {
+    width: 1510px;
+    height: 622px;
+    background-color: #E5E5E5;
+
+}
+.title--contact--us {
+    width: 1170px;
+    height: 150px;
+    color: black;
+    font-family: Raleway;
+    font-style: Regular;
+    font-size: 36px;
+    line-height: 42px;
+    line-height: 100%;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 169px;
+
+}
+.devider--contact--us {
+    width: 170px;
+    margin-left: 670px;
+    margin-right: 670px;
+    border: 1px solid #EC7979;
+}
+.about--contact--us {
+    width: 1169px;
+    height: 21px;
+    color: #86878B;
+    font-family: Raleway;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 21px;
+    line-height: 100%;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 170px;
+
+}
+.contact--us--info {
+    width: 1170px;
+    height: 211px;
+   display: flex;
+   flex-wrap: nowrap;
+   flex-direction: row;
+   margin-top: 70px;
+   margin-left: 171px;
+}
+
+.contact--us--data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.contact--us--personal {
+    width: 571px;
+    height: 32px;
+    margin-right: 30px;
+    border: none;
+    background-color: #E2E2E2;
+    border-bottom: 1px solid #BDBDBD;
+
+}
+.contact--us--text {
+ width: 569px;
+ height: 211px;
+border: none;
+border-bottom: 1px solid #BDBDBD;
+background-color: #E2E2E2;
+ 
+}
+.contact--us--button {
+    width: 370px;
+    height: 58px;
+    color: #FFFFFF;
+    background-color: #EC7979;
+    text-align: center;
+    font-family: Open Sans;
+    font-style: Semibold;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 600;
+    border: none;
+    margin-top: 50px;
+    margin-left: 570px;
+}
