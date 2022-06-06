@@ -4,20 +4,21 @@
 	box-sizing: border-box;
 }
 .title {
-    width: calc (1170px + 15px*2);
+    width: 1510px;
     height: 1026 px;
+    background-image: url(./image\ bg.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .title--navigation {
-    width: 100%;
-    background-image: url(./image\ bg.jpg);
     width: 1510px;
-    height: 1026px;
+    width: 100%;
+    height: 75px;
    
      
 }
 .title--navigation--menu {
-    width: 1510px;
-    height: 75px;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -36,7 +37,7 @@
 width: 600px;
 height: 75px;
 margin-top: 30px;
-margin-left: 567px;
+margin-left: 550px;
 
 }
 .title--navigation--info {
@@ -56,24 +57,28 @@ display: inline-block;
     text-decoration: none;
    
   
-  
+}
+.title--info {
+width: 1510px;
+height: 1026px;
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
 }
 .title--logo--first {
-    margin: 231px 0px 665px 170px;
+   margin-top: 223px;
+   margin-left: 170px;
   
 }
 .title--logo--second {
-    margin-right: 1170px;
-    margin-bottom: 665px;
-    margin-left: 0px;
-    position: relative;
+    
+   
 }
 .main--title {
     width: 670px;
     height: 168px;
-    position: absolute;
-    bottom: 250px;
-    left: 170px;
+    margin-top: 72px;
+    margin-left: 170px;
     font-family: Raleway;
     font-style: Medium;
     font-size: 48px;
@@ -83,10 +88,10 @@ display: inline-block;
     color: #FFFFFF;
 }
 .divider--solid {
-    position: absolute;
-    border: 3px solid #FFFFFF;
-    bottom: 200px;
-    left: 170px;
+    border: 1px solid #FFFFFF;
+    width: 170px;
+    margin-top: 55px;
+    margin-left: 170px;
 }
 .title--info--about {
     width: 270px;
@@ -97,9 +102,9 @@ display: inline-block;
     line-height: 100%;
     font-weight: 400;
     color: #FFFFFF;
-    position: absolute;
-    left: 170px;
-    bottom: 110px;
+    margin-top: 42px;
+    margin-left: 170px;
+    
 }
 .download {
     width: 270px;
@@ -113,19 +118,26 @@ display: inline-block;
     font-weight: 600;
     text-align: center;
     color: #FFFFFF;
-    position: absolute;
-    left: 170px;
-    bottom: 30px;
+   margin-top: 42px;
+   margin-left: 170px;
      
 }
 .back--info {
     width: 1510px;
+    width: 100%;
     height: 140px;
+    
 }
 .back--info-media {
     width: 1510px;
     height: 140px;
     background-color: #F8EFEF;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+
+
 }
 .info--media--title {
     width: 470px;
@@ -139,7 +151,6 @@ display: inline-block;
     text-align: left;
     margin-left: 170px;
     padding-top: 20px;
-    position: relative;
 }
 .info--media--about {
     width: 470px;
@@ -154,18 +165,72 @@ display: inline-block;
     text-align: left;
     margin-left: 170px;
 }
-.info--media--link {
+.social--media--link {
     width: 638px;
     height: 58px;
-    display: inline-block;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-right: 170px;
    
     
 }
-.media--link--facebook {
-    width: 30.32px;
-    height: 55.42px;
-    position: absolute;
-    left: 689.84px;
-    
- 
+.table {
+width: 470px;
+height: 450px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+background-color: #FFFFFF;
+margin-top: 208px;
+margin-right: 170px;
+
+}
+.table--info {
+    width: 367px;
+    height: 90px;
+    margin-left: 53px;
+    margin-right: 50px;
+    margin-top: 40px;
+    font-family: Open Sans;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 33px;
+    line-height: 100%;
+    font-weight: 700;
+    text-align: center;
+}
+
+ .table--information--about {
+    width: 370px;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    margin-top: 33px;
+    margin-left: 50px;
+   
+ }   
+   
+.button--start {
+width: 100%;
+height: 60px;
+margin-top: 75px;
+color: #FFFFFF;
+background-color: #EC7979;
+border: none;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+
+}
+
+
+.social--media {
+    text-decoration: none;  
+}
+.title--column--about {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
 }
