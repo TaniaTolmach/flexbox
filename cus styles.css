@@ -5,8 +5,7 @@
 }
 .customers {
     width: 1508px;
- 
-    
+
 }
 .customers--title {
    
@@ -77,7 +76,7 @@
     width: 30px;
     height: 20px;
     left: 240px;
-    bottom: 245px;
+    bottom: 432px;
 }
 
     .customers--quote--rosser {
@@ -101,7 +100,7 @@
     width: 30px;
     height: 20px;
     left: 640px;
-    bottom: 245px;
+    bottom: 432px;
 }
 .customers--quote--dorwart {
     width: 370px;
@@ -124,7 +123,7 @@
     width: 30px;
     height: 20px;
     left: 1040px;
-    bottom: 245px;
+    bottom: 432px;
 }
 
 .customers--info {
@@ -184,3 +183,52 @@
     margin: 66px 470px 84px 30px; 
     
 }
+.design {
+    width: 1510px;
+    height: 442px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(./imagebg2\.jpg)
+    
+}
+.title--design {
+    width: 1170px;
+    height: 150px;
+    font-family: Raleway;
+    font-style: Regular;
+    font-size: 36px;
+    line-height: 42px;
+    line-height: 100%;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 50px 171px auto 169px;
+    padding-top: 100px;
+}
+.devider--design {
+    width: 170px;
+    margin: 50px 670px auto 670px;
+}
+.info--design {
+width: 1169px;
+height: 21px;
+font-family: Raleway;
+font-style: Regular;
+font-size: 18px;
+line-height: 21px;
+line-height: 100%;
+font-weight: 400;
+color: #FFFFFF;
+text-align: center;
+margin-top: 50px;
+margin-left: 170px;
+}
+.button--design {
+    width: 370px;
+    height: 58px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 73px;
+    margin-left: 570px;
+    border: 2px solid #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.5);
+} 
